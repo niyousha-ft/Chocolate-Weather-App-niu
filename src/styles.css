@@ -53,7 +53,7 @@ body {
   top: -26px;
 }
 .units .active {
-  color: rgb(81, 79, 79);
+  color: rgb(144, 143, 143);
   cursor: default;
   text-decoration: none;
 }
@@ -65,13 +65,14 @@ body {
   position: relative;
   font-size: 14px;
   left: 15px;
-  color: rgb(81, 79, 79);
+
+  opacity: 0.5;
 }
 .wind {
   position: relative;
   font-size: 14px;
   left: 15px;
-  color: rgb(81, 79, 79);
+  opacity: 0.5;
 }
 .tem {
   position: relative;
@@ -112,9 +113,7 @@ body {
 .material-symbols-outlined {
   color: red;
 }
-.owl {
-  position: relative;
-  font-size: 20px;
-  top: 4px;
-  color: black;
+
+.niu {
+  border-radius: 7px;
 }
