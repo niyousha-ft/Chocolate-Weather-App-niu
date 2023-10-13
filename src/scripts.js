@@ -114,11 +114,11 @@ function showTemprature(response) {
   }
   if (descriptionIcon === "clear-sky-day") {
     app.style.background =
-      "linear-gradient(70deg, rgb(112, 206, 220) 35.6%, rgb(200, 242, 84) 99.2%)";
+      "linear-gradient(70deg, rgb(233, 240, 158) 35.6%, rgb(168, 231, 240) 99.2%)";
   }
   if (descriptionIcon === "clear-sky-night") {
     app.style.background =
-      "linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%)";
+      "linear-gradient(109.6deg, rgb(18, 22, 77) 13.4%, rgb(7, 104, 168) 100.2%)";
   }
   if (
     descriptionIcon === "few-clouds-day" ||
@@ -131,7 +131,7 @@ function showTemprature(response) {
     descriptionIcon === "scattered-clouds-night"
   ) {
     app.style.background =
-      "linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%)";
+      "linear-gradient(89.7deg, rgb(60, 59, 77) -10.7%, rgb(38, 96, 145) 88.8%)";
   }
   if (descriptionIcon === "broken-clouds-day") {
     app.style.background =
